@@ -1,18 +1,40 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-  </div>
+  <main>
+    <ix-header :links="links" />
+    <router-view class="container px-5 sm:px-20 py-20 flex justify-center" />
+    <ix-footer />
+  </main>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import IxHeader from "@/components/IxHeader";
+import IxFooter from "@/components/IxFooter";
 
 export default {
   name: "App",
-  components: {
-    HelloWorld,
-  },
+  components: { IxHeader, IxFooter },
+
+
+  data() {
+    return {
+      links: [
+        {
+          title: 'BTC',
+          to: { name: 'coin-detail', params: { id: 'bitcoin' } }
+        },
+        {
+          title: 'ETH',
+          to: { name: 'coin-detail', params: { id: 'ethereum' } }
+        },
+        {
+          title: 'BNB',
+          to: { name: 'coin-detail', params: { id: 'binance-coin' } }
+        }
+      ]
+    }
+  }
+
+
 };
 </script>
 

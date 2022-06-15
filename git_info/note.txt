@@ -1,0 +1,65 @@
+vue create project-name
+
+(Add vue js Plugins):
+vue add
+
+
+
+
+Add Tailwind css:
+vue add tailwind --select your preferred settings
+
+or
+
+Custom Config:
+vue add @ianaya89/tailwind
+In main.js: import "@/assets/css/tailwind.css";
+
+
+
+Install Vue Router:
+npm i -S vue-router
+
+Vue.js 2 Router:
+npm i vue-router@3.5.3
+
+
+
+
+Por si a alguien le sale un error mencionando a:
+“core-js/modules/es.object.to-string”
+
+Cambien los preset de babel.config.js por esto:
+
+module.exports = {
+presets: [["@vue/app", { useBuiltIns: "entry" }]]
+};
+
+
+
+To format numbers like currency:
+npm i -s numeral
+
+
+Vue Spinner:
+https://github.com/greyby/vue-spinner
+
+Create beautiful JavaScript charts with one line of Vue:
+https://github.com/ankane/vue-chartkick
+npm i -S vue-chartkick@0.6.1
+
+ A collection of loading spinner components for Vuejs:
+https://github.com/Saeris/vue-spinners
+
+Install multiple packages:
+npm i -s @saeris/vue-spinners vue-chartkick chart.js
+
+npm i -S chart.js@2.8.0
+
+
+Vue 2 Reactive Issue (solved in Vue 3):
+The reactivity issue is caused by vue not being able to detect if a property exists because it was added after the object was created and this property is not being tracked by vue.
+In order to solve it:
+this.$set(this.someObject, 'newProperty', value)
+
+
