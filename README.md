@@ -6,43 +6,43 @@
 #### Coincap API : Coincap v2
 #### Tailwind CSS
 
-![Main](https://raw.githubusercontent.com/Grois333/Django-Djackets/master/deploy%20images/Home%20-%20Djackets.jpg)
+![Main](https://raw.githubusercontent.com/Grois333/itzik-exchange/master/git_info/project_images/main.png)
 
 
 ### Home:
 
-![Admin](https://raw.githubusercontent.com/Grois333/Django-Djackets/master/deploy%20images/django%20admin.png)
+![Home](https://raw.githubusercontent.com/Grois333/itzik-exchange/master/git_info/project_images/home.png)
 
 
 
 ### Coin Detail:
 
-![Admin](https://raw.githubusercontent.com/Grois333/Django-Djackets/master/deploy%20images/admin%20slide%20content.png)
+![Deatail](https://raw.githubusercontent.com/Grois333/itzik-exchange/master/git_info/project_images/coin-detail.png)
 
 
 
 ### Currency Change:
 
-![Admin](https://raw.githubusercontent.com/Grois333/Django-Djackets/master/deploy%20images/slider%20api.png)
+![Currency](https://raw.githubusercontent.com/Grois333/itzik-exchange/master/git_info/project_images/currency-change.png)
 
 
 
 ### Search:
 
-![Admin](https://raw.githubusercontent.com/Grois333/Django-Djackets/master/deploy%20images/products%20api.png)
+![Search](https://raw.githubusercontent.com/Grois333/itzik-exchange/master/git_info/project_images/search.png)
 
 
 
 
 ### Sort:
 
-![Admin](https://raw.githubusercontent.com/Grois333/Django-Djackets/master/deploy%20images/sign%20up.png)
+![Sort](https://raw.githubusercontent.com/Grois333/itzik-exchange/master/git_info/project_images/sort.png)
 
 
 
 ### Responsive:
 
-![Admin](https://raw.githubusercontent.com/Grois333/Django-Djackets/master/deploy%20images/category%20page.png)
+![Responsive](https://raw.githubusercontent.com/Grois333/itzik-exchange/master/git_info/project_images/responsive.png)
 
 
 
