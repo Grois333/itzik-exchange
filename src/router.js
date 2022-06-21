@@ -32,7 +32,7 @@ const router = new Router({
 
     {
       path: "*",
-      name: "Error",
+      name: "error",
       component: Error,
     },
   ],
